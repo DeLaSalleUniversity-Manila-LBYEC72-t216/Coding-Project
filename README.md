@@ -32,6 +32,7 @@ do{
       for (j=0; j<5; j++)
       if (h.r[i][j].isVacant)
       cout <<h.r[i][j].num<<"\n";
+      
       cout << "\n Enter any letter to proceed: ";
       cin >> trash;
       system ("cls");
@@ -57,7 +58,7 @@ do{
         cout << "\nEnter any letter to proceed: ";
         cin >> trash;
         system ("cls");
-    }
+   }
       
     
     else if(choice == 3){
